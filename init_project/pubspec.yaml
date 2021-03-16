@@ -1,0 +1,66 @@
+name: init_project
+description: A new Flutter project.
+
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+
+# To add Packages to your application, add an dependencies section, like this:  
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter  
+  flutter_screenutil: ^4.0.3+3      #ScreenUtil is responsive package url https://pub.dev/packages/flutter_screenutil
+  flutter_translate: ^1.6.0      #Translate is for multi lang package url https://pub.dev/packages/flutter_translate
+  http: ^0.13.0                     #HTTP package is for request Http url https://pub.dev/packages/http
+  provider: ^5.0.0                              #idk this is for what url https://pub.dev/packages/provider
+  fswitch: ^1.1.2                        #for beatiful switch buttons url https://pub.dev/packages/fswitch
+  fluttertoast: ^7.1.8                    #for a notification dynamic url https://pub.dev/packages/fluttertoast
+  flutter_slider_drawer: ^2.0.0                     #for sidebar menu url https://pub.dev/packages/flutter_slider_drawer
+  division: ^0.8.8                     #for highlights and make pages url https://pub.dev/packages/division
+  flutter_svg: ^0.19.3                           #for using SVG files url https://pub.dev/packages/flutter_svg
+  shamsi_date: ^0.9.1                       #for jalali Date and Time url https://pub.dev/packages/shamsi_date
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# The following section is specific to Flutter.
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/i18n/
+    - assets/images/
+
+
+
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
