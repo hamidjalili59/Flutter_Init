@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:init_project/utils/constants.dart';
+import 'package:init_project/Widget/theme/app_theme.dart';
 import 'package:shamsi_date/shamsi_date.dart';
 
 //EdgeInsets
@@ -35,8 +35,8 @@ void showToast(String message) {
     toastLength: Toast.LENGTH_SHORT,
     gravity: ToastGravity.BOTTOM,
     timeInSecForIosWeb: 2,
-    backgroundColor: black,
-    textColor: white,
+    backgroundColor: Apptheme.black,
+    textColor: Apptheme.white,
     fontSize: 18.0,
   );
 }
@@ -48,5 +48,7 @@ String dateTimeJalali() {
   final f = jNow.formatter;
   return '${tNow.minute} : ${tNow.hour} _ ${f.yyyy}/${f.mm}/${f.dd}';
 }
+
+
 
 //PerimissionsHandler

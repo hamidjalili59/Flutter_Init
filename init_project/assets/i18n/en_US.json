@@ -1,0 +1,12 @@
+{
+  "mobileWidget":{
+    "title": "Mobile"
+  },
+  "tabletWidget":{
+    "title": "Tablet"
+  },
+  "desktopWidget":{
+    "title": "Desktop"
+  }
+  
+}
