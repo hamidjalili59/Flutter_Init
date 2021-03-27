@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_translate/flutter_translate.dart';
-import 'package:init_project/Widget/theme/text_widget.dart';
+import 'package:init_project/Widget/base/text_widget.dart';
 
 class HomeDesktopWidget extends StatefulWidget {
   @override
